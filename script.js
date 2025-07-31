@@ -1,7 +1,7 @@
 let yesButton = document.getElementById("yes");
 let noButton = document.getElementById("no");
 let questionText = document.getElementById("question");
-questionText.textContent = "可不可以像以前那样对我不那么冷漠";
+questionText.textContent = "可不可以把我的抖音拉出来";
 let mainImage = document.getElementById("mainImage");
 mainImage.src = "/zqh666/heart.jpeg";  // 修改为新的图片URL
 let clickCount = 0;  // 记录点击 No 的次数
@@ -11,8 +11,8 @@ const noTexts = [
     "不再考虑一下嘛…",
     "补药哇",
     "选耶斯好不好",
-    "我会好难过的…",
-    "补药补药:("
+    "好难过的",
+    "补药哇补药哇:("
 ];
 
 // No 按钮点击事件
