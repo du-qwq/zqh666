@@ -1,7 +1,7 @@
 let yesButton = document.getElementById("yes");
 let noButton = document.getElementById("no");
 let questionText = document.getElementById("question");
-questionText.textContent = "可不可以把我的抖音拉出来";
+questionText.textContent = "可不可以不要对我这么冷冷的";
 let mainImage = document.getElementById("mainImage");
 mainImage.src = "/zqh666/heart.jpeg";  // 修改为新的图片URL
 let clickCount = 0;  // 记录点击 No 的次数
@@ -57,3 +57,4 @@ yesButton.addEventListener("click", function() {
 
     document.body.style.overflow = "hidden";
 });
+
